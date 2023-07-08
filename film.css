@@ -1,0 +1,53 @@
+html{
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    background-color:#111D5E;
+}
+.title{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 75px;
+    color:#F6F6F6
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-box{
+    width:65%;
+    height:45px;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.search-button{
+    margin-left: 3px;
+    width: 6%;
+    height:45px;
+    border-radius: 25px;
+
+}
+::placeholder{
+    font-weight: 200;
+    opacity: 0.3;
+}
+.display{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img{
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+p{
+    color: #F6F6F6;
+}
